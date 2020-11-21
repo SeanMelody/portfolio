@@ -1,0 +1,13 @@
+/* Personalized CSS used in addition to Bootstrap Framework */
+body{
+    background-color: lightgray;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+/* 
+Media Queries for images at 800px */
+@media only screen and (max-width: 800px) {
+    img {height: 250px;
+        width: 250px;
+    }
+
+}
