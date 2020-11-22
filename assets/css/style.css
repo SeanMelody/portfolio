@@ -60,14 +60,7 @@ main {
     background-color: rgba(2255, 255, 255, 0.80);
 }
 
-/* .navbar a :hover{
-    color: white
-}
-
-.nav-link a :hover{
-    color: white
-} */
-
+/* Navbar color and text color */
 .navbar {
     background-color: rgba(33, 73, 152, 0.80);
     color: white;
