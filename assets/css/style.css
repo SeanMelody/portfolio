@@ -26,15 +26,18 @@ Media Queries for images at 800px */
     background-size: cover;
     height: auto;
 }
+
 .background-main {
     background-color: #214998;
     background: url("../images/Binary-Film1.gif");
     background-size: cover;
 }
+
 .message {
     height: 80px;
     padding-bottom: 50px;
 }
+
 /* First section in each page */
 main {
     margin-top: 40px;
@@ -57,13 +60,13 @@ main {
     background-color: rgba(2255, 255, 255, 0.80);
 }
 
-.navbar a :hover{
+/* .navbar a :hover{
     color: white
 }
 
 .nav-link a :hover{
     color: white
-}
+} */
 
 .navbar {
     background-color: rgba(33, 73, 152, 0.80);
