@@ -1,6 +1,7 @@
 /* Personalized CSS used in addition to Bootstrap Framework */
 body{
-    background-color: lightgray;
+    background-image: linear-gradient(rgb(237, 237, 237), rgb(142, 142, 142));;
+    height: 1800px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 /* 
@@ -18,14 +19,14 @@ Media Queries for images at 800px */
     background-size: contain;
 }
 
-.background {
+/* .background {
     background: url("../images/Binary-Film.jpg");
-    background-color: #214998;
+    background-color: #214998; */
     /* background-position: center; */
-    background-repeat: no-repeat;
+    /* background-repeat: no-repeat;
     background-size: cover;
     height: auto;
-}
+} */
 
 .background-main {
     background-color: #214998;
@@ -33,9 +34,12 @@ Media Queries for images at 800px */
     background-size: cover;
 }
 
+
+
 .message {
     height: 80px;
     padding-bottom: 50px;
+
 }
 
 /* First section in each page */
@@ -116,9 +120,17 @@ p a {
 }
 
 .social-media-link a {
+    margin-top: 10px;
     text-decoration: none;
     color: #214998;
     font-size: 24px;
+}
+
+.github-link a {
+    margin-top: 10px;
+    text-decoration: none;
+    color: #214998;
+    font-size: 18px;
 }
 
 .message {
@@ -134,7 +146,8 @@ footer {
     margin-top: 40px;
     padding-top: 20px;
     text-align: center;
-    background-color: rgba(33, 73, 152, 0.80);
+    background-color: rgba(72, 72, 72, 0.8);
+    /* background-color: rgba(33, 73, 152, 0.80); */
     color: rgba(2255, 255, 255, 0.5)
     
 }
