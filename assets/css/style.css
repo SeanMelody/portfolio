@@ -34,6 +34,7 @@ Media Queries for images at 800px */
     background-size: cover;
 }
 
+
 .message {
     height: 80px;
     padding-bottom: 50px;
@@ -78,8 +79,9 @@ h1 {
 h2 {
     font-size: 32px;
     font-weight: bold;
-    border-bottom: 1px solid black;
-    margin-top: 10px;
+    margin-top: 15px;
+    margin-bottom: 10px;
+    /* border-bottom: 1px solid black; */
 }
 
 a {
@@ -92,6 +94,10 @@ a :active{
 
 p a {
     color: #214998;
+}
+
+.portfolio-body { 
+margin-top: 25px;
 }
 
 /* .portfolio-img {
@@ -123,12 +129,16 @@ p a {
     color: #214998;
     font-size: 24px;
 }
+.social-media-link h4 {
+    margin-top: 10px;
+}
 
 .github-link a {
     margin-top: 10px;
     text-decoration: none;
     color: #214998;
     font-size: 18px;
+    margin-bottom: 25px;
 }
 
 .message {
