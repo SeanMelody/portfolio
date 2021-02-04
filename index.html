@@ -10,63 +10,65 @@
         integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
     <!-- My CSS Styling Link -->
     <link rel="stylesheet" href="./assets/css/style.css">
-    <!-- FAVICON -->
+    <!-- My Favicon-->
     <link rel="icon" type="image/png" href="./assets/images/Favicon.png" />
     <title>Sean Melody</title>
 </head>
 
-
-
 <body>
+
+    <!-- This Div is the landing gif, that is hidden when the Enter button is clicked -->
     <!-- background-main to add the gif to the background of page -->
     <div class="background-main">
         <!-- Row and Col for the card mx auto to center it -->
         <div class="row col-md-3 mx-auto">
             <!-- card for the welcome message and button to go to rest of webpage -->
             <div class="card text-center enter" style="width: 18rem;">
+                <!-- Card title for the title -->
                 <div class="card-title">
                     <h3>Hi!</h3>
                     <h4>I'm Sean Melody</h4>
                 </div>
+                <!-- Card body to hold my description and the welcome button -->
                 <div class="card-body">
-                    <!-- </div> -->
                     <!-- Silly title -->
                     <h6 class="mb-2 text-muted">Full-stack Web Developer Extraordinaire</h6>
                     <br>
-                    <!-- <p>Awesomeness Awaits</p> -->
-                    <!-- Button to take you to rest of webpage -->
+                    <!-- Button to hid the gif, and display the rest of webpage -->
                     <a href="#navbar" class="btn btn-lg" id="welcome">Enter</a>
                 </div>
             </div>
         </div>
     </div>
 
+    <!-- This div starts as hidden, will show when the Enter button is clicked -->
     <div class="homepage">
-        <div>
-            <!-- Start of Navigation Bar -->
-            <nav class="navbar fixed-top navbar-expand-lg navbar-dark">
-                <!-- Title links back to index.html as well -->
-                <a class="navbar-brand" href="./index.html">
-                    <h1><a name="navbar">Sean Melody</a></h1>
-                </a>
-                <!-- Button for when page is thinner -->
-                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
-                    aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-                    <span class="navbar-toggler-icon"></span>
-                </button>
-                <div class="collapse navbar-collapse" id="navbarNav">
-                    <!-- Website Navigation List Links -->
-                    <ul class="nav navbar-nav ml-auto">
-                        <li class="nav-item ml-auto">
-                            <a class="nav-link" href="#portfolio">Portfolio</a>
-                        </li>
-                        <li class="nav-item ml-auto">
-                            <a class="nav-link" href="#contact">Contact</a>
-                        </li>
-                    </ul>
-                </div>
-            </nav>
-        </div>
+        <!-- Start of Navigation Bar -->
+        <!-- Navigation bar will follow user down page -->
+        <nav class="navbar fixed-top navbar-expand-lg navbar-dark">
+            <h1><a name="navbar">Sean Melody</a></h1>
+            </a>
+            <!-- Button for when page is thinner -->
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
+                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <!-- Website Navigation List Links -->
+                <ul class="nav navbar-nav ml-auto">
+                    <li class="nav-item ml-auto">
+                        <!-- Links connected to Portfolio Section lower on page, not a new page -->
+                        <a class="nav-link" href="#portfolio">Portfolio</a>
+                    </li>
+                    <li class="nav-item ml-auto">
+                        <!-- Links connected to Contact Section lower on page, not a new page -->
+                        <a class="nav-link" href="#contact">Contact</a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+        <!-- End of Navigation -->
+
         <div class="about-me">
             <!-- Main Section Start-->
             <div class="container">
