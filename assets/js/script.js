@@ -21,4 +21,6 @@ welcome.addEventListener("click", (e) => {
     homepage.classList.remove("background-hide")
     homepage.classList.add("background-display")
 
-}) 
+})
+
+// End of JavaScript

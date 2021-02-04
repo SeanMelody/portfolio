@@ -106,14 +106,13 @@ h1 {
 }
 
 .portfolio-photos {
-    height: 700px;
+    /* height: 700px; */
     background-image: linear-gradient(rgb(255, 255, 255), rgb(198, 198, 198));
 }
 
 .photos {
     padding-top: 125px;
 }
-
 
 .photo img {
     height: 200px;
@@ -123,7 +122,7 @@ h1 {
 }
 
 .portfolio-container {
-    height: 2700px;
+    /* height: 2700px; */
     padding: 50px;
     background-image: linear-gradient(rgb(198, 198, 198), rgb(255, 254, 254));
 }
@@ -143,7 +142,6 @@ h1 {
     border: 1px solid black;
     height: 300px;
     width: auto;
-
 }
 
 .contact-me-title {
