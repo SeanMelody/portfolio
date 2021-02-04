@@ -1,23 +1,44 @@
 /* Personalized CSS used in addition to Bootstrap Framework */
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
 body{
-    background-image: linear-gradient(rgb(184, 184, 184), rgb(45, 45, 45));;
-    height: 1800px;
+    /* margin-top: 0; */
+    /* background-image: linear-gradient(rgb(184, 184, 184), rgb(45, 45, 45)); */
+    /* height: 1800px; */
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 /* 
 Media Queries for images at 800px */
-@media only screen and (max-width: 800px) {
+@media only screen and (max-width: 700px) {
     img {height: 250px;
         width: 250px;
     }
 }
 
-.background-img {
+a:link {
+  text-decoration: none;
+}
+
+p a {
+    text-decoration: none;
+    color: #073ca7;
+}
+
+a h4{
+    text-decoration: none;
+    color: #073ca7;
+}
+
+/* .background-img {
     height: auto; 
     background-position: center;
     background-repeat: no-repeat;
     background-size: contain;
-}
+} */
 
 /* .background {
     background: url("../images/Binary-Film.jpg");
@@ -28,46 +49,84 @@ Media Queries for images at 800px */
     height: auto;
 } */
 
+
+
+.background-hide {
+display: none;
+}
+
+.background-display {
+display: block;
+}
+
 .background-main {
-    background-color: #214998;
+    height: 100vh;
+    /* width: auto; */
     background: url("../images/Binary-Film1.gif");
     background-size: cover;
 }
 
+.enter {
+    /* margin-top: 20px; */
+    position: absolute;
+    margin-top: 100px;
+    padding-top: 20px;
+    align-items: center;
+    justify-content: center;
+    background-color: rgba(2255, 255, 255, 0.80);
+}
 
-.message {
+.about-me {
+    background-color: white;
+    padding: 100px;
+}
+
+.about-me-title {
+    /* padding-bottom: 20px; */
+    font-size: 32px;
+    font-weight: bold;
+}
+
+.about-me-body {
+padding-top: 50px;
+}
+
+
+/* .message {
     height: 80px;
     padding-bottom: 50px;
 
-}
+} */
 
 /* First section in each page */
-main {
+/* main {
     margin-top: 40px;
     margin-bottom: 40px;
     background-color: rgba(255, 255, 255, 0.70);
     padding-bottom: 40px;
-}
+} */
 
 #welcome {
-    background-color: rgba(33, 73, 152, 1);
+    background-color: #073ca7;
     color: white;
 }
-
+/* 
 .bio {
     margin-top: 150px;
-    height: 100%;
-    display: flex;
     justify-content: center;
     align-items: center;
     background-color: rgba(2255, 255, 255, 0.80);
-}
+} */
 
 /* Navbar color and text color */
 .navbar {
-    background-color: rgba(33, 73, 152, 0.80);
+    background-color: rgba(7, 60, 167, 0.80);
     color: white;
+    /* height: 75px; */
 }
+.nav-link {
+    margin-right: 50px;
+ }
 
 /* Name in Navbar */
 h1 {
@@ -75,15 +134,82 @@ h1 {
     font-family: Arial, Helvetica, sans-serif;
 }
 
-/* Title of each page */
-h2 {
-    font-size: 32px;
-    font-weight: bold;
-    margin-top: 15px;
-    margin-bottom: 10px;
-    /* border-bottom: 1px solid black; */
+/* Index page images */
+.about-me-photo {
+    padding: 10px;
+    border-radius: 8px;
+    border: 1px solid black;
+    height: 300px;
+    width: 300px;
 }
 
+.about-me-paragraphs p {
+    padding-left: 15px;
+}
+
+.portfolio-photos {
+    height: 700px;
+    background-image: linear-gradient(rgb(255, 255, 255), rgb(198, 198, 198));
+}
+
+.photos {
+    padding-top: 125px;
+}
+
+
+.photo img {
+    height: 200px;
+    width: 200px;
+    border: 1px solid black;
+    margin: 10px;
+}
+
+.portfolio-container {
+    height: 2700px;
+    padding: 50px;
+    background-image: linear-gradient(rgb(198, 198, 198), rgb(255, 254, 254));
+}
+
+.portfolio-title {
+    font-size: 32px;
+    font-weight: bold;
+}
+
+.portfolio-body {
+    padding-top: 20px;
+}
+
+/* Portfolio page Images */
+.portfolio-img img {
+    border-radius: 8px;
+    border: 1px solid black;
+    height: 300px;
+    width: auto;
+
+}
+
+.contact-me-title {
+    padding-top: 20px;
+    font-size: 32px;
+    font-weight: bold;
+}
+
+.social-media {
+    padding-top: 20px;
+    font-size: 32px;
+    font-weight: bold;
+}
+
+
+
+/* Title of each page */
+/* h2 {
+    font-size: 32px;
+    font-weight: bold;
+    border-bottom: 1px solid black;
+    margin-top: 10px;
+} */
+/* 
 a {
     color: red;
     text-decoration: none;
@@ -94,27 +220,28 @@ a :active{
 
 p a {
     color: #214998;
-}
-
-.portfolio-body { 
-margin-top: 25px;
-}
+} */
 
 /* .portfolio-img {
     height: 100px;
     width: 150px;
 } */
 
-/* Index page images */
-.about-me-photo img {
-    border-radius: 8px;
-    border: 1px solid black;
-}
-
 /* Portfolio page Images */
 .portfolio-img img {
     border-radius: 8px;
     border: 1px solid black;
+}
+
+.portfolio-link {
+    margin-top: 5px;
+    font-size: 24px;
+    color: #073ca7;
+    text-decoration: none;
+}
+
+.portfolio-link a {
+    text-decoration: none;
 }
 
 /* Contact Page Images */
@@ -123,30 +250,26 @@ margin-top: 25px;
     border: 1px solid black;
 }
 
-.social-media-link a {
-    margin-top: 10px;
-    text-decoration: none;
-    color: #214998;
+.social-media-link h4 {
+    /* margin-top: 10px;
+    text-decoration: none; */
+    color: #073ca7;
     font-size: 24px;
 }
-.social-media-link h4 {
-    margin-top: 10px;
-}
 
-.github-link a {
+.github-link {
     margin-top: 10px;
     text-decoration: none;
-    color: #214998;
+    color: #073ca7;
     font-size: 18px;
-    margin-bottom: 25px;
 }
 
-.message {
-    height: 80px;
-    padding-bottom: 50px;
+.contact-me-container{
+    height: 900px;
 }
 
 footer {
+    /* position: fixed; */
     bottom: 0;
     width: 100%;
     height: 60px;
