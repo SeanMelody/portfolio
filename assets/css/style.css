@@ -124,7 +124,8 @@ h1 {
 .portfolio-container {
     /* height: 2700px; */
     padding: 50px;
-    background-image: linear-gradient(rgb(198, 198, 198), rgb(255, 254, 254));
+    background: linear-gradient(rgb(255, 254, 254), rgb(198, 198, 198));
+    /* background-image: linear-gradient(rgb(198, 198, 198), rgb(255, 254, 254)); */
 }
 
 .portfolio-title {
@@ -192,7 +193,8 @@ h1 {
 }
 
 .contact-me-container{
-    height: 900px;
+       background-image: linear-gradient(rgb(198, 198, 198), rgb(255, 254, 254));
+    /* height: 900px; */
 }
 
 footer {
@@ -203,7 +205,8 @@ footer {
     margin-top: 40px;
     padding-top: 20px;
     text-align: center;
-    background-color: rgba(198, 198, 198, 0.8);
-    color: rgba(0, 0, 0, 0.5)
+    background-color: rgba(7, 60, 167, 0.80);
+    /* background-color: rgba(255, 255, 255, 0.8); */
+    color: rgba(255, 255, 255, 0.5)
     
 }
