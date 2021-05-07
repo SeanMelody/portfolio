@@ -7,6 +7,11 @@
     margin: 0;
 }
 
+ /* Set the scrolling behavior to smooth */
+html {
+scroll-behavior: smooth;
+}
+
 /* Setting the page font */
 body{
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
