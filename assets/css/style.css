@@ -110,16 +110,9 @@ h1 {
     padding-left: 15px;
 }
 
-.gameOSkate {
-    padding-top: 50px;
-    color: white;
-    background-image: linear-gradient(#94948d, #666600);
-    text-align: center;
-}
-
 canvas {
     border: 5px solid black;
-   margin: 15px;
+   margin: 5px, 15px, 15px, 15px;
 }
 
 .margin-ten {
@@ -213,8 +206,17 @@ canvas {
     font-size: 18px;
 }
 
+
+.gameOSkate-container {
+    padding-top: 50px;
+    color: black;
+    background-image: linear-gradient(rgb(198, 198, 198), rgb(215, 215, 215));
+    text-align: center;
+}
+
 .contact-me-container{
-       background-image: linear-gradient(rgb(198, 198, 198), rgb(255, 254, 254));
+    padding-top: 40px;
+    background-image: linear-gradient(rgb(215, 215, 215), rgb(255, 254, 254));
     /* height: 900px; */
 }
 
