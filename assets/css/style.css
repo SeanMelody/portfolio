@@ -110,6 +110,22 @@ h1 {
     padding-left: 15px;
 }
 
+.gameOSkate {
+    padding-top: 50px;
+    color: white;
+    background-image: linear-gradient(#94948d, #666600);
+    text-align: center;
+}
+
+canvas {
+    border: 5px solid black;
+   margin: 15px;
+}
+
+.margin-ten {
+  margin: 10px;
+}
+
 .portfolio-photos {
     /* height: 700px; */
     background-image: linear-gradient(rgb(255, 255, 255), rgb(198, 198, 198));
