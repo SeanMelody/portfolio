@@ -7,26 +7,27 @@
     margin: 0;
 }
 
- /* Set the scrolling behavior to smooth */
+/* Set the scrolling behavior to smooth */
 html {
-scroll-behavior: smooth;
+    scroll-behavior: smooth;
 }
 
 /* Setting the page font */
-body{
+body {
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 
- 
+
 /* Media Queries for images at 800px */
 @media only screen and (max-width: 700px) {
-    img {height: 250px;
+    img {
+        height: 250px;
         width: 250px;
     }
 }
 
 a:link {
-  text-decoration: none;
+    text-decoration: none;
 }
 
 p a {
@@ -34,22 +35,22 @@ p a {
     color: #073ca7;
 }
 
-a h4{
+a h4 {
     text-decoration: none;
     color: #073ca7;
 }
 
 .background-hide {
-display: none;
+    display: none;
 }
 
 .background-display {
-display: block;
+    display: block;
 }
 
 .background-main {
     height: 100vh;
-    background: url("../images/Binary-Film1.gif");
+    background: url("../images/Binary-Film.gif");
     background-size: cover;
 }
 
@@ -73,7 +74,7 @@ display: block;
 }
 
 .about-me-body {
-padding-top: 50px;
+    padding-top: 50px;
 }
 
 #welcome {
@@ -87,9 +88,10 @@ padding-top: 50px;
     color: white;
     /* height: 75px; */
 }
+
 .nav-link {
     margin-right: 50px;
- }
+}
 
 /* Name in Navbar */
 h1 {
@@ -112,11 +114,11 @@ h1 {
 
 canvas {
     border: 5px solid black;
-   margin: 5px, 15px, 15px, 15px;
+    margin: 5px, 15px, 15px, 15px;
 }
 
 .margin-ten {
-  margin: 10px;
+    margin: 10px;
 }
 
 .portfolio-photos {
@@ -214,7 +216,7 @@ canvas {
     text-align: center;
 }
 
-.contact-me-container{
+.contact-me-container {
     padding-top: 40px;
     background-image: linear-gradient(rgb(215, 215, 215), rgb(255, 254, 254));
     /* height: 900px; */
@@ -231,5 +233,4 @@ footer {
     background-color: rgba(7, 60, 167, 0.80);
     /* background-color: rgba(255, 255, 255, 0.8); */
     color: rgba(255, 255, 255, 0.5)
-    
 }
