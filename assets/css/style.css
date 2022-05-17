@@ -64,7 +64,7 @@ a h4 {
 }
 
 .about-me {
-    background-color: white;
+    background: linear-gradient(rgb(230, 229, 229), rgb(251, 251, 251));
     padding: 100px;
 }
 
@@ -121,12 +121,12 @@ canvas {
     margin: 10px;
 }
 
-.portfolio-photos {
+/* .portfolio-photos {
     /* height: 700px; */
-    background-image: linear-gradient(rgb(255, 255, 255), rgb(198, 198, 198));
-}
+/* background-image: linear-gradient(rgb(231, 231, 231), rgb(185, 185, 185));
+} */
 
-.photos {
+*/ .photos {
     padding-top: 125px;
 }
 
@@ -137,10 +137,14 @@ canvas {
     margin: 5px;
 }
 
+.display-border {
+    border: 1px solid black;
+}
+
 .portfolio-container {
     /* height: 2700px; */
     padding: 50px;
-    background: linear-gradient(rgb(255, 254, 254), rgb(198, 198, 198));
+    background: linear-gradient(rgb(251, 251, 251), rgb(185, 185, 185));
     /* background-image: linear-gradient(rgb(198, 198, 198), rgb(255, 254, 254)); */
 }
 
@@ -212,13 +216,13 @@ canvas {
 .gameOSkate-container {
     padding-top: 50px;
     color: black;
-    background-image: linear-gradient(rgb(198, 198, 198), rgb(215, 215, 215));
+    background-image: linear-gradient(rgb(185, 185, 185), rgb(215, 215, 215));
     text-align: center;
 }
 
 .contact-me-container {
     padding-top: 40px;
-    background-image: linear-gradient(rgb(215, 215, 215), rgb(255, 254, 254));
+    background-image: linear-gradient(rgb(215, 215, 215), rgb(251, 251, 251));
     /* height: 900px; */
 }
 
